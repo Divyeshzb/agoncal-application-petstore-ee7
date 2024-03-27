@@ -1,0 +1,5 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+get^|^/login^|^{}^|^{}^|^200^|^{"description": "The login page is accessible."}
+post^|^/login^|^{"username":"any_username","password":"any_password"}^|^{}^|^200^|^{"msg": "string"}
+post^|^/login^|^{"username":"any_username","password":"any_password"}^|^{}^|^400^|^{"msg": "string"}
+post^|^/login^|^{"username":"any_username","password":"any_password"}^|^{}^|^403^|^{"msg": "string"}
