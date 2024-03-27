@@ -1,0 +1,3 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+get^|^/login^|^No response headers^|^{}^|^200^|^{"description":"The login page is accessible."}
+post^|^/login^|^{"username":"valid_username","password":"valid_password"}^|^{}^|^200^|^{"headers":"No response headers"}

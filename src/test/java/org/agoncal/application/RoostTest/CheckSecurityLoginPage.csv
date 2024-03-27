@@ -1,0 +1,5 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+get^|^/login^|^NA^|^NA^|^200^|^The login page is accessible.
+post^|^/login^|^{"username": "test_user","password": "encrypted_password"}^|^NA^|^200^|^{"msg": "Login Successful"}
+post^|^/login^|^{"username": "test_user","password": "wrong_password"}^|^NA^|^400^|^{"msg": "Invalid Credentials"}
+post^|^/login^|^{"username": "blocked_user","password": "encrypted_password"}^|^NA^|^403^|^{"msg": "Access Denied"}
